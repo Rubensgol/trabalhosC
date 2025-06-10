@@ -22,15 +22,6 @@ void percentualMinMax(int area, float cr, float *min, float *max)
         else
             *max = 0.12;
     }
-    else
-    {
-        *min = 0.3;
-
-        if(area == 1)
-            *max = 0.4;
-        else
-            *max = 0.35;
-    }
 }
 
 void quebraMatricula(int matricula, int *area, int *curso)
